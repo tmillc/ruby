@@ -1,0 +1,1 @@
+print "Amber".reverse
