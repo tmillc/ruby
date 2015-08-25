@@ -11,3 +11,13 @@ elsif word1.length < word2.length
 else
     print "They're the same length"
 end
+
+def whichbefore(word1, word2)
+  if word1 <=> word2 == -1
+    puts "#{word1} comes first"
+  elsif word1 <=> word2 == 0
+    puts "They're the same word"
+  else
+    puts "#{word2} comes first"
+  end
+end
